@@ -1,0 +1,41 @@
+xrun: 24.09-s001: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun	24.09-s001: Started on Mar 05, 2026 at 16:29:43 IST
+xrun
+	+define+DUMP_ON
+	+define+CADENCE
+	-incdir /scratch/users/undas/ASYNC_FIFO_F/verif/tb/
+	-f /scratch/users/undas/ASYNC_FIFO_F/rtl/sig_async_fifo_flst.f
+		/scratch/users/undas/ASYNC_FIFO_F/rtl/synchronizer.sv
+		/scratch/users/undas/ASYNC_FIFO_F/rtl/fifo_memory.sv
+		/scratch/users/undas/ASYNC_FIFO_F/rtl/wrptr_handler.sv
+		/scratch/users/undas/ASYNC_FIFO_F/rtl/rdptr_handler.sv
+		/scratch/users/undas/ASYNC_FIFO_F/rtl/fifo_top.sv
+	-f /scratch/users/undas/ASYNC_FIFO_F/verif/tb/sig_async_fifo_tb_flst.f
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_if.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_transaction.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_generator.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_driver.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_monitor.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_scoreboard.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_env.sv
+		/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_tb_top.sv
+	-svseed 1234
+	+nowarn_AAMNSD
+	+access+rw
+	-disable_sem2009
+	-uvm
+	+sv
+	+timescale+1ns/1ps
+
+   User defined plus("+") options:
+	+timescale+1ns/1ps
+
+
+Trying to check out license...
+	Xcelium_Single_Core 24.00 - Failed
+	Xcelium_Safety_Sim 24.00 - Failed
+	Xcelium_Safety 24.00 - Failed
+	Xcelium_Multi_Core 24.00 - Failed
+	Xcelium_For_Partners 24.00 - Failed
+xmsim: *F,NOLICN: Unable to checkout license for the simulation. 'lic_error LMF-03005'.
+TOOL:	xrun	24.09-s001: Exiting on Mar 05, 2026 at 16:30:31 IST  (total: 00:00:48)

@@ -1,0 +1,18 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++define+DUMP_ON
++define+CADENCE
+-incdir
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/verif/tb/
+-f
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/rtl/sig_async_fifo_flst.f
+-svseed
+1234
++nowarn_AAMNSD
++access+rw
+-disable_sem2009
+-uvm
++sv
++timescale+1ns/1ps

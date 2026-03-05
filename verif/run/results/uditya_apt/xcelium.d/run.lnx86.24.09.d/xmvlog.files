@@ -1,0 +1,17 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/scratch/users/undas/ASYNC_FIFO_F/rtl/synchronizer.sv
+/scratch/users/undas/ASYNC_FIFO_F/rtl/fifo_memory.sv
+/scratch/users/undas/ASYNC_FIFO_F/rtl/wrptr_handler.sv
+/scratch/users/undas/ASYNC_FIFO_F/rtl/rdptr_handler.sv
+/scratch/users/undas/ASYNC_FIFO_F/rtl/fifo_top.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_if.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_transaction.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_generator.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_driver.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_monitor.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_scoreboard.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_env.sv
+/scratch/users/undas/ASYNC_FIFO_F/verif/tb/fifo_tb_top.sv

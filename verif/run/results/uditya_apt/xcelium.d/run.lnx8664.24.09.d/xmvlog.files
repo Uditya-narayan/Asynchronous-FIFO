@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/rtl/synchronizer.sv
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/rtl/fifo_memory.sv
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/rtl/wrptr_handler.sv
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/rtl/rdptr_handler.sv
+/home/undas/training/ASSIGNMENT/ASYNC_FIFO_F/rtl/fifo_top.sv

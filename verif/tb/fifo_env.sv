@@ -10,10 +10,7 @@ class fifo_env;
   mailbox #(logic [63:0])     drv2scb;
 
   virtual fifo_if vif;
-
-  // count transactions manually
-  int total_txns  = 0;  // how many txns generator sent
-  int driven_txns = 0;  // how many txns driver completed
+  int total_txns = 0;
 
   function new(virtual fifo_if v);
     vif     = v;
@@ -40,13 +37,12 @@ class fifo_env;
       scb.run();
     join_none
 
-    // check every wrclk until mailbox is empty
     while (gen2drv.num() > 0)
       @(posedge vif.wrclk);
 
-    repeat(20) @(posedge vif.wrclk);
-    repeat(20) @(posedge vif.rdclk);
-
+    while ((scb.pass + scb.fail) < 24)  // wait until all 24 checked
+  @(posedge vif.rdclk);             // check every clock edge 
+    
     scb.report();
 
   endtask
